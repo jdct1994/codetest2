@@ -1,0 +1,34 @@
+How do you define an AngularJS application?
+Use ng-app in the html file.
+
+What is a controller?
+A controller is a JavaScript Object that allows for manipulation of data in the html.
+
+What does ng-model do?
+ngModel binds an input, select, textarea or custom form control to a property on the scope using ngModelController.
+ngModel is responsible for binding the view into the model, which other directives such as input, textarea or select require.
+
+What is interpolation markup?
+Interpolation markup with embedded expressions is used by Angular to provide data-binding to text nodes and attribute values.
+For example: <a ng-href="img/{{username}}.jpg">Hello {{username}}</a>
+
+What is $scope?
+The scope is the binding part between the HTML (view) and the JavaScript (controller). The scope is an object with the available properties and methods. The scope is available for both the view and the controller.
+
+What is dependency injection?
+Dependency Injection is a software design pattern in which components are given their dependencies instead of hard coding them wihin the component.
+
+What is two-way binding?
+Two-way binding means that any data-related changes affecting the model are immediately propogated to the matching view(s) and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely.
+
+What is 'controller as' syntax?
+"Controller as" syntax allows you to define a named scope for a controller with the ng-controller directive. John Papa Angular Style Guide recommends the controller as syntax to make code easier to read.
+
+What is MV* architecture?
+MVC stands for Model View Controller. Model is the lowest level of the pattern responsible for maintaining data.
+View is responsible for displaying all or a portion of the data to the user. Controller is a software code that controls the interactions between the model and the view.
+
+What is the difference between a service and a factory?
+Both factories and services allow us to create an object that can then be used anywhere in our app.
+Factories are functions that return the object, while services are constructor functions of the object which are instantiated with the 'new' keyword.
+Function allows us to add some logic before creating the object we require. It differs from Service in a way where it allows us to pass the function which factory then invokes and returns the result. Service provider function creates a service object by using 'new' keyword and you can add properties to it by using this keyword, then it returns this.

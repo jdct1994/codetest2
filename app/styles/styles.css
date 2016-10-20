@@ -1,0 +1,29 @@
+body {
+	background-color: #64abdd;
+}
+
+#question1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#question2 {
+	margin-top: 50px;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#colorChangeDiv {
+	padding: 40px;
+}
+
+#buttons {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.container {
+	border: 7px solid white;
+}
